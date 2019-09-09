@@ -21,7 +21,9 @@
 		$_SESSION['number1']++;
 	}
 	if($_SESSION['number1']>1){
+		<div style="color:red">
 		$_SESSION['number1']=0;
+		</div>
 	}
 	$filename1 = "lampu2.txt";
 	if(isset($_POST['qwerty'])){
